@@ -1,4 +1,4 @@
-#Sistema Escolar
+# Sistema Escolar
 Este é um sistema escolar desenvolvido em HTML, CSS e PHP para gerenciamento de alunos, professores, funcionários, cursos e disciplinas, com integração direta a um banco de dados MySQL.
 
 Funcionalidades:
