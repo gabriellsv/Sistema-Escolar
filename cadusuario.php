@@ -1,0 +1,46 @@
+<?php
+header("Content-type:text/html; charset=utf8");
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Sistema Escolar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+ <div class="tudo">
+     <div class="login">
+         <div align="center">
+             <img src="img/logo.png" alt="">
+         </div>
+        <!--Formulario de Login        -->
+         <form action="" method="post">
+             <div class="form-group">
+                 <label for="nome">E-mail</label>
+                 <input type="text" name="nome" placeholder="Nome Completo" class="form-control" minlength="3" required>
+             </div>
+             <div class="form-group">
+                 <label for="email">E-mail</label>
+                 <input type="email" name="email" placeholder="email@com.br" class="form-control" required>
+             </div>
+             <div class="form-group">
+                 <label for="senha">Senha</label>
+                 <input type="password" name="senha" class="form-control" minlength="6" maxlength="15" required>
+             </div>
+            <!-- Botoes-->
+             <div align="center">
+                 <button class="btn btn-success" type="submit">Salvar</button>
+                 <a href="index.php" class="btn btn-outline-danger">Voltar</a>
+             </div>
+         </form>
+     </div>
+ </div>
+</body>
+</html
